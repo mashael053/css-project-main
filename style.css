@@ -98,8 +98,9 @@ background-color: rgb(165, 165, 169)
     text-align: center;
     background-color: white;
     grid-row: 1/2;
-    height: 50vh;
+    height: 80vh;
 }
+
 .title-item1{
 text-align: center;
 }
@@ -118,19 +119,27 @@ text-align: center;
     grid-row: 6/10;
 }
 .container .item4{
-    background-color: #050505;
+    background-color: #000000;
     text-align: start;
-    color: #fff;
+    color: #000000;
      width: 10vw; 
     height: 10vh;
 
 }
-.container .item4 img{
- width: 10vw; 
-
+.item-item4{
+ background-color: #000000;
+ color: #eaeaea;
+ text-height:20px;
 }
+/* .my-name{
+  text-height:10px;
+} */
+/* .container .item4 img{
+ width: 100%; 
+
+} */
 .container h1{
-    text-align: start;
+    text-align: center;
 }
 .container  .item5{
     width: 30vw;
@@ -159,6 +168,10 @@ background-color: #0a0a0a;
     display: flex;
     flex-direction: column;
 }
+
+.item-item7{
+    width:70%
+}
 .tages{
     color: aliceblue;
     background-color: #050505;
@@ -174,18 +187,32 @@ background-color: #0a0a0a;
     font-size: 1rem;
     margin: 0.5rem;
 }
+.item8{
+    width: 70%;
+}
 .title-item8{
     color: aliceblue;
     background-color: #050505;
-}
 
+}
+/* display: grid;
+grid-template-columns: 50% 50%;
+gap: 5px;
+justify-items: center;
+line-height: 20px;
+}
+.item8-imgs{
+width: 90%;
+height:90%; */
 .imgage-columan1{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     gap: 20px;
      width: 15%; 
      padding-top: 10px;
     padding-bottom: 10px; 
+    justify-items: center;
+line-height: 20px;
 }
 
 
@@ -210,7 +237,7 @@ background-color: #0a0a0a;
 
 .footer{
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
     background-color: #616161;
     display: flex;
 
@@ -251,5 +278,6 @@ background-color: #0a0a0a;
     background-color: brown;
     height: 70%;
     width: 100%;
+    border:none;
 
 }
