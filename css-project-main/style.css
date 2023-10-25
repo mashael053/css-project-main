@@ -1,0 +1,154 @@
+*{margin: 0%;}
+
+.nav{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 5vh;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+}
+.icons{
+    /* width: 50%; */
+    display: flex;
+    justify-content : start;
+    gap: 50px;
+
+}
+.flex-icons{
+    width: 90%;
+
+}
+/* section 2 */
+
+.section2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    background-color: white;
+    gap: 20px;
+}
+.bloger-name ,p{
+ 
+    text-align: center;
+}
+
+/* section3 */
+.section3{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    height: 100vh;
+    background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+}
+.section3 .text-info{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+ .section3 h1{
+    color: white;
+    /* background-color: rgb(178, 178, 224); */
+    /* width: 80%; */
+    font-size: 64px;
+
+}
+.sub-btn{
+    
+    width: 5%;
+    height: 10%;
+    /* background-color: #fff!important; */
+}
+
+button{
+    background-color: #fff;
+
+  color: #050505; /* لون النص */
+  border-radius: 5px; /* تدوير حواف الزر */
+  font-size: 16px; /* حجم النص */
+  padding: 10px 20px; /* الهوامش الداخلية */
+  text-transform: uppercase; /* تصغير النص */  
+}
+/* section 4 */
+.container{
+    width: 100vw;
+display: grid;
+grid-template-columns: auto auto;
+gap: 30px;
+background-color: #e2dfdd;
+}
+.container .item{
+background-color: rgb(165, 165, 169)
+;
+}
+.container  .item1{
+    text-align: center;
+    background-color: white;
+    grid-row: 1/2;
+    height: 50vh;
+}
+.item1 p{
+    text-align: center;
+}
+.container  .item2{
+    text-align: center;
+    background-color: white;
+    grid-row: 2/6;
+}
+.container  .item3{
+    text-align: center;
+
+    background-color: white;
+    grid-row: 6/10;
+}
+.container .item4{
+    background-color: #050505;
+    text-align: center;
+    color: #fff;
+    width: 40vw;
+
+}
+.container .item4 img{
+  width: 100%;
+
+}
+.container h1{
+    text-align: center;
+}
+.container  .item5{
+    width: 30vw;
+background-color: #0a0a0a;
+
+}
+.container  .item5 h1{
+    color: white;
+}
+.item5-container{
+    background-color: aliceblue;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 15px 10px;
+}
+.item5-info img{
+    width: 10%;
+}
+.item5-info{
+    gap: 15px 10px;
+    display: flex; 
+}
+.item5-text{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #616161;
+}
